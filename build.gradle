@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.3')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+javafx { // Specify the JavaFX version and modules to use
+    version = "21.0.5"
+    modules = ['javafx.controls', 'javafx.fxml'] // In this class, these are the only two we'll use
+}
+
+application {  // specify the name of your "main class" that starts the application
+    mainClass = 'edu.virginia.sde.javafx.day1.HelloWorld'
+}
