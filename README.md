@@ -4,7 +4,7 @@
 
 This implementation of JavaFX requires JDK 21.0.5, you must install JDK 21.0.5 and JavaFX 21.0.5 in order to run it. [See class notes for installation links and guide](https://docs.google.com/document/d/18UjMUfmNpPkgt-KVVFodydJbbrBgFl5hnWi_MmSMB2I/edit?usp=sharing).
 
-**THIS WILL NOT WORK WITH JDK 21.0.4!**
+**THIS MAY NOT WORK WITH JDK 21.0.4!**
 
 ## To Run from Terminal
 
